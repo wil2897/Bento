@@ -3,15 +3,15 @@ const today = new Date();
 const hour = today.getHours();
 
 // Here you can change your name
-const name = ' Wiiru-chan';
+const name = ' ウィル';
 
 // Here you can change your greetings
-const gree1 = 'Oyaisuminasai,  ';
-const gree2 = 'Ohayou,  ';
-const gree3 = 'Konnichiwa,  ';
-const gree4 = 'Konbanwa,  ';
-const gree5 = 'Konbanwa,  ';
-const gree6 = 'Konbanwa,  ';
+const gree1 = 'おやすみなさい,  ';
+const gree2 = 'おはよう,  ';
+const gree3 = 'こんにちは,  ';
+const gree4 = 'こんばんは,  ';
+const gree5 = 'こんばんは,  ';
+const gree6 = 'こんばんは,  ';
 
 // Define the hours of the greetings
 if (hour >= 23 && hour < 5) {
